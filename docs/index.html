@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Prioritize Demo| Material Design | CodeArtisan">
+    <meta name="theme-color" content="#4caf50">
+    <title>Prioritize Demo</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Material+Icons' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/textfield.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="md-header md-header--fixed md-header--primary md-header--casting-shadow md-header--casting-border md-header--has-menu-button">
+    <a class="md-header__menu-button md-button--icon" id="menu-button" href="javascript:;" data-toggle="drawer" data-target="#drawer-1">
+        <i class="material-icons">menu</i>
+    </a>
+    <div class="md-header__row">
+        <div class="md-header__title layout-m-l-3"> Prioritize Demo</div>
+        <div class="md-layout-spacer"></div>
+    </div>
+</header>
+
+<main>
+</main>
+
+<aside>
+    <div class="md-prioritize md-prioritize--visible" id="md-prioritize">
+        <div class="md-prioritize__shadow">
+
+        </div>
+        <div class="md-prioritize__surface ">
+            <div id="parent" class="animation-enter">
+                <div id="child" style="display: none">
+                    <!--<button class="md-button md-button&#45;&#45;icon top-surface-button"><i class="material-icons">menu</i></button>-->
+                </div>
+                <div class="md-prioritize__surface-text" style="display:none">
+                    <h6 style="color: #fff">Just how you want.</h6>
+                    <p style="color: #fff">Tap the menu icon switch accounts, change settings and more.</p>
+                    <button class="md-button md-button--light" id="got-it-button">Ok, Got It</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</aside>
+
+<button class="md-button md-button--fab md-button--primary md-button--fixed"><i class="material-icons">add</i></button>
+
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="js/textfield.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
